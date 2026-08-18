@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --link-color: #ecf0f1;
+    --accent-color: #e74c3c;
+    --primary-color: #2c3e50;
+    --nav-height: 60px;
+    --bg-color: #f4f6f7;
+    --card-color: #ffffff;
+    --box-color: #e8f8f5;
+}
+
+body{
+    color: var(--bg-color);
+}
+
+nav{
+    height: var(--nav-height);
+    background-color: var(--primary-color);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav > div:first-child{
+    position: absolute;
+    top: 35px;
+    left: 30px;
+}
+
+p > a:nth-child(2){
+    padding-left: 30px;
+}
+
+p > a:nth-child(3){
+    padding-left: 30px;
+}
+
+nav > div:last-child{
+    position: absolute;
+    right: 20px;
+    top: 35px;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+a:hover{
+    color: var(--accent-color);
+}
