@@ -15,7 +15,7 @@
 }
 
 body{
-    color: var(--bg-color);
+    background-color: var(--bg-color);
 }
 
 nav{
@@ -57,4 +57,33 @@ a{
 
 a:hover{
     color: var(--accent-color);
+}
+
+.section-1{
+    background-color: var(--card-color);
+    color: var(--primary-color);
+    border: 1px solid grey;
+    height: 150px;
+    width: 800px;
+    margin: 80px 0px 0px 110px;
+    padding: 40px 0px 0px 25px;
+    position: relative;
+}
+
+.featured{
+    background-color: var(--accent-color);
+    color: var(--link-color);
+    width: 73px;
+    height: 21px;
+    position: absolute;
+    bottom: 140px;
+    right: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 3px;
+}
+
+.paragraph{
+    margin-top: 20px;
+    font-size: 14.5px;
 }
