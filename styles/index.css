@@ -60,15 +60,18 @@ a:hover{
     text-decoration: underline;
 }
 
-.section-1, #section-2{
-    background-color: var(--card-color);
-    color: var(--primary-color);
-    border: 1px solid grey;
+.section-1{
     height: 150px;
-    width: 800px;
     margin: 80px 0px 0px 110px;
     padding: 40px 0px 0px 25px;
     position: relative;
+}
+
+.section-1, #section-2 ,#section-3{
+    background-color: var(--card-color);
+    color: var(--primary-color);
+    border: 1px solid grey;
+    width: 800px;
 }
 
 .featured{
@@ -123,4 +126,32 @@ a:hover{
 
 .box-2, .box-3{
     margin-left: 10px;
+}
+
+#section-3{
+    height: 325px;
+    margin: 30px 0px 0px 110px;
+    padding: 35px 0px 0px 25px;
+}
+
+.ul{
+    margin: 10px 0px 0px 20px;
+    list-style-type: square;
+}
+
+ul > li, ol > li{
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+.ol{
+    background-color: #eaeded;
+    height: 80px;
+    width: 750px;
+    padding: 5px 0px 0px 30px;
+    margin-top: 10px;
+}
+
+ol{
+    list-style-type: upper-roman;
 }
